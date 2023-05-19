@@ -1,0 +1,29 @@
+.categories {
+    width: 25%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.categoriesLink {
+    width: 48%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1%;
+    line-height: 50px;
+    box-shadow: inset 0 0 0 1px #242424;
+    font-size: 14px;
+}
+
+.categoriesH3 {
+    width: 100%;
+    padding: 12px 15px;
+    border-left: 3px solid;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.555);
+}

@@ -1,0 +1,50 @@
+.banner {
+    width: 100%;
+    margin-bottom: 80px
+}
+
+.bannerImage {
+    z-index: -1;
+    opacity: .1;
+    height: 575px !important
+}
+
+.bannerBaslik {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.bannerText {
+    text-align: justify;
+    text-shadow: 1px 1px #000;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.playButton {
+    padding: 10px 80px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    color: #000;
+    margin-right: 10px;
+}
+
+.nextPrevButton {
+    padding: 10px 15px;
+    margin-left: 3px;
+    display: inline;
+    color: #777;
+    background: rgba(0, 0, 0, 0.555);
+    float: right;
+}
+
+.shadow {
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(30 30 30));
+    position: absolute;
+    width: 100%;
+    height:575px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

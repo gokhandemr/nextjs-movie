@@ -1,0 +1,53 @@
+.moviePage {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.movieImage {
+    float: left;
+    margin-bottom: 80px;
+}
+
+.movieTitle,
+.movieText {
+    float: right;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.movieBackground {
+    opacity: .2;
+    z-index: -1;
+    height: 575px!important;
+}
+
+.movieIframeContainer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-top: 2px dashed #444;
+    border-bottom: 2px dashed #444;
+    padding:20px 0;
+}
+
+.movieIframe {
+    width: 50%;
+    height: 300px;
+}
+
+.movieH2{
+    float:left;
+    width:100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.shadow {
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(30 30 30));
+    position: absolute;
+    width: 100%;
+    height:575px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
